@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="0.5"> -->
+    <title>Main</title>
+    <link rel="stylesheet" href="./Cascading Style Sheets/time.css">
+    <style>
+        @font-face {
+            font-family: BadaBoom BB;
+            src: url(./Fonts/BADABB__.TTF);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            background-image: url(./Image/home8.png);
+            background-size: cover;
+            background-size: 1600px 800px;
+            background-repeat: no-repeat;
+            /* background-color: cyan; */
+        }
+
+        button {
+            position: absolute;
+            width: 300px;
+            height: 80px;
+            background-color: orange;
+            /* border: 2px solid black; */
+            border-radius: 20px;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px red;
+            font-family: BadaBoom BB, sans-serif;
+            text-anchor: middle;
+            font-size: 250%;
+            letter-spacing: 2px;
+            /* font-style: italic; */
+            overflow: hidden;
+            left: 1200px;
+        }
+
+        button:hover {
+            text-shadow: 2px 2px 2px blue;
+            font-size: 260%;
+        }
+
+        span.stem-s,
+        span.stem-t,
+        span.stem-e,
+        span.stem-m {
+            font-style: normal;
+            font-family: BadaBoom BB, sans-serif;
+            /* position: relative; */
+            /* text-align: center  ; */
+            /* right: 600px; */
+            display: block;
+            font-size: 300%;
+            color: whitesmoke;
+            /* letter-spacing: 3px;    */
+            text-shadow: 5px 1px black;
+            position: absolute;
+            left: 15px;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            font-weight: 500;
+            border: 2px solid black;
+            padding: 0px 20px 0px 50px;
+            /* border-width: 2px; */
+            width: 20px;
+            overflow: hidden;
+            letter-spacing: 50px;
+            border-radius: 50px 10px 10px 50px;
+            /* background-color: r; */
+        }
+
+        .stem-s {
+            top: 260px;
+            background-color: purple;
+        }
+
+        .stem-t {
+            top: 325px;
+            background-color: red;
+        }
+
+        .stem-e {
+            top: 395px;
+            background-color: goldenrod;
+        }
+
+        .stem-m {
+            top: 460px;
+            background-color: cyan;
+        }
+
+        .stem-t:hover,
+        .stem-e:hover,
+        .stem-m:hover {
+            animation: stem-animation 1s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 10ms;
+        }
+
+        .stem-s:hover {
+            animation: stem-s-animation 0.8s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 5ms;
+        }
+
+        @keyframes stem-animation {
+            from {
+                width: 50px;
+                letter-spacing: 50px;
+            }
+
+            to {
+                width: 250px;
+                letter-spacing: 3px;
+            }
+        }
+
+        @keyframes stem-s-animation {
+            from {
+                width: 50px;
+                letter-spacing: 50px;
+            }
+
+            to {
+                width: 150px;
+                letter-spacing: 3px;
+            }
+        }
+
+        h4.user-name {
+            font-family: BadaBoom BB, sans-serif;
+            font-size: 500%;
+            text-transform: uppercase;
+            position: absolute;
+            font-weight: 300;
+            text-shadow: 5px 3px black;
+            color: white;
+            letter-spacing: 3px;
+            top: 50px;
+            left: 1300px;
+        }
+
+        div#div {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 2000px;
+            background-color: red;
+        }
+
+        .stem-icon-mathematic,
+        .stem-icon-engeneering,
+        .stem-icon-scient,
+        .stem-icon-technology {
+            width: 40px;
+            height: 40px;
+            border-radius: 15px;
+            background-color: whitesmoke;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+        }
+
+        .stem-icon-mathematic:hover {
+            animation: stem-m-icon-animation 1s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 10ms;
+        }
+
+        .stem-icon-engeneering:hover {
+            animation: stem-e-icon-animation 1s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 10ms;
+        }
+
+        .stem-icon-scient:hover {
+            animation: stem-s-icon-animation 2s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 10ms;
+        }
+
+        .stem-icon-technology:hover {
+            animation: stem-t-icon-animation 1s;
+            animation-fill-mode: both;
+            animation-direction: alternate;
+            animation-delay: 10ms;
+        }
+
+        @keyframes stem-m-icon-animation {
+            from {
+                transform: rotate(0deg);
+
+            }
+
+            to {
+                transform: rotate(60deg);
+            }
+        }
+
+        @keyframes stem-e-icon-animation {
+            0% {
+                transform: rotate(0deg);
+
+            }
+
+            25% {
+                transform: rotate(15deg);
+            }
+
+            75% {
+                transform: rotate(-15deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes stem-s-icon-animation {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes stem-t-icon-animation {
+            from {
+                width: 40px;
+                height: 40px;
+                background: whitesmoke;
+            }
+            50% {
+                width: 43px;
+                height: 43px;
+                background: none;
+            }
+            100% {
+                width: 40px;
+                height: 40px;
+                background-color: whitesmoke;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Button -->
+    <button>challenge now</button>
+
+    <!-- Stem-Animation -->
+    <div>
+        <div class="stem-icon">
+            <span class="stem-s">
+                <img src="./Image/Scient-icon.png" alt="Scient_icon" class="stem-icon-scient">
+                Scient</span>
+        </div>
+        <div>
+            <span class="stem-t">
+                <img src="./Image/Technology-icon1.png" alt="Technology_icon" class="stem-icon-technology">
+                Technology</span>
+        </div>
+        <div>
+            <span class="stem-e">
+                <img src="./Image/Engeneering-icon.png" alt="Engeneering_icon" class="stem-icon-engeneering">
+                Engeneering</span>
+        </div>
+        <div>
+            <span class="stem-m">
+                <img src="./Image/Mathematic-icon.png" alt="Mathematic_icon" class="stem-icon-mathematic">
+                Mathematic
+            </span>
+        </div>
+    </div>
+
+    <!-- User-Name -->
+    <h4 class="user-name">Stem</h4>
+
+    <!-- Time -->
+    <div class="clock">
+        <span class="clock-time"></span>
+        <!-- <span class="clock-ampm"></span> -->
+    </div>
+
+    <!-- Date -->
+    <dir class="date">
+        <span class="date-current"></span>
+    </dir>
+
+    <!-- Import Script(JavaScript) -->
+    <!-- Time -->
+    <script src="./JavaScript/time.js"></script>
+    <!-- Date -->
+    <script src="./JavaScript/date.js"></script>
+
+    <!-- <div id="div"></div> -->
+</body>
+
+</html>
