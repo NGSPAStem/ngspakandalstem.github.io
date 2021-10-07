@@ -1,0 +1,29 @@
+@font-face {
+    font-family: BadaBoom BB;
+    src: url(../Fonts/BADABB__.TTF);
+}
+body {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 200px; */
+}
+.clock {
+    /* background: #333; */
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    left: 1250px;
+    text-shadow: 5px 3px black;
+    /* font-size: 1000%; */
+    top: 280px;
+}
+.clock-time {
+    /* font-family: "Concert One", cursive; */
+    font-family: BadaBoom BB;
+    font-size: 400%;
+    color: #fff;
+}
