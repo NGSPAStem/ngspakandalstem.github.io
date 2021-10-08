@@ -1,0 +1,19 @@
+@font-face {
+    font-family: BadaBoom BB;
+    src: url(./Fonts/BADABB__.TTF);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.date-current {
+    font-family: BadaBoom BB;
+    font-size: 400%;
+    color: #fff;
+    position: absolute;
+    left: 1250px;
+    text-shadow: 5px 3px black;
+    top: 420px;
+}
