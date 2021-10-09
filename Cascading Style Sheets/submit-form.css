@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Kh Content;
+    src: url(../Fonts/Kh-Content_0.ttf);
+}
+@font-face {
+    font-family: Albertus;
+    src: url(../Fonts/albr55w.ttf);
+}
+
+.platform {
+    /* border: 2px solid black; */
+    width: 410px;
+    position: absolute;
+    padding: 10px;
+}
+
+.register-topic-description {
+    font-family: Kh Content, cursive;
+}
+
+.topic-description {
+    margin: 10px;
+    font-family: Kh Content, cursive;
+    position: relative;
+    top: 10px;
+    /* margin: 10px; */
+}
+
+.topic-box,
+.register-topic-box {
+    width: 400px;
+    height: 250px;
+    border: 5px dashed orange;
+    border-radius: 20px;
+    position: relative;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.topic-requirement-description,
+.topic-requirement {
+    font-family: Kh Content, cursive;
+    position: relative;
+    text-align: center;
+    bottom: -140px;
+    color: orange;
+}
+
+.topic-requirement {
+    font-size: 80%;
+    color: black;
+    font-family: Kh Content, cursive;
+}
+
+.topic-video {
+    position: relative;
+    /* top: 300px; */
+    font-family: Kh Content, cursive;
+}
+
+#video-link {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(228, 225, 225);
+    border: solid transparent;
+    /* text-align: center; */
+    text-indent: 20px;
+    font-size: 110%;
+    font-family: Albertus, cursive;
+    opacity: 0.8;
+    position: relative;
+}
+
+#video-link:active,
+#video-link:focus {
+    outline: none;
+    opacity: 1;
+}
+
+#link-submission {
+    width: 110px;
+    height: 60px;
+    font-size: 110%;
+    border-radius: 20px;
+    border: solid transparent;
+    background-color: cyan;
+    font-family: Albertus, cursive;
+    position: absolute;
+    margin-left: 10px;
+}
+
+#link-submission:hover,
+#link-submission:active {
+    font-weight: bold;
+}
