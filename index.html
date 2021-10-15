@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="refresh" content="0.5"> -->
-    <title>Main</title>
+    <title>STEM Challenge</title>
     <link rel="stylesheet" href="./Cascading Style Sheets/time.css">
     <link rel="stylesheet" href="./Cascading Style Sheets/date.css">
     <style>
@@ -18,7 +18,7 @@
         body {
             display: flex;
             justify-content: center;
-            background-image: url(./Image/home8.png);
+            background-image: url(./Image/home9.jpg);
             background-size: cover;
             background-size: 1600px 800px;
             background-repeat: no-repeat;
@@ -31,7 +31,7 @@
             height: 80px;
             background-color: orange;
             /* border: 2px solid black; */
-            border-radius: 20px;
+            border-radius: 100px 0px 100px 0px;
             color: white;
             text-transform: uppercase;
             text-shadow: 2px 2px 2px red;
@@ -39,14 +39,24 @@
             text-anchor: middle;
             font-size: 250%;
             letter-spacing: 2px;
+            box-shadow: 2px 5px 5px purple;
             /* font-style: italic; */
             overflow: hidden;
             left: 1200px;
+            /* text-decoration: none; */
+            box-decoration-break: clone;
+            border: solid transparent;
+            /* border: 2px solid black; */
+            opacity: 0.8;
         }
 
         button:hover {
             text-shadow: 2px 2px 2px blue;
             font-size: 260%;
+        }
+        button a {
+            text-decoration: none;
+            color: white;
         }
 
         span.stem-s,
@@ -141,7 +151,7 @@
 
         .user-account {
             position: absolute;
-            top: 120px;
+            top: 140px;
             left: 1270px;
         }
 
@@ -255,12 +265,16 @@
                 background-color: whitesmoke;
             }
         }
+
+        @media screen {
+            
+        }
     </style>
 </head>
 
 <body>
     <!-- Button -->
-    <button>challenge now</button>
+    <button><a href="./Hyper Text Markup Language/selection-challenge.html">Challenge Now</a></button>
 
     <!-- Stem-Animation -->
     <div>
@@ -289,7 +303,7 @@
 
     <!-- User-Name -->
     <h4 class="user-account">
-        <a href="./Hyper Text Markup Language/submit-form.html" class="user-name">Account</a>
+        <a href="./Hyper Text Markup Language/Register and Login.html" class="user-name">Register</a>
     </h4>
 
     <!-- Time -->
