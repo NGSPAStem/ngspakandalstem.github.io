@@ -1,0 +1,92 @@
+@font-face {
+    font-family: AKbalthom Ream;
+    src: url(../Fonts/AKbalthom\ Ream\ [Version\ 2.00]\ 082014.ttf);
+}
+@font-face {
+    font-family: Kh Content;
+    src: url(../Fonts/Kh-Content_0.ttf);
+}
+@font-face {
+    font-family: Kantumruy;
+    src: url(../Fonts/Kantumruy-Regular.ttf);
+}
+@font-face {
+    font-family: AKbalthom Kbach;
+    src: url(../Fonts/AKbalthom\ Kbach\ [Version\ 1.50]\ 082014.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    margin: 10px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
+    line-height: 50px;
+}
+
+div h2 {
+    font-family: AKbalthom Ream;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+}
+.topic {
+    font-size: 160%;
+    text-decoration: underline;
+    font-family: AKbalthom Kbach;
+}
+
+.head {
+    list-style-type: disc;
+    font-size: 120%;
+    font-family: Kh Content;
+}
+
+.inside {
+    font-family: Kantumruy;
+    font-size: 90%;
+    font-style: italic;
+    list-style-type: square;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: Kantumruy;
+    font-size: 95%;
+    padding: 0px 0px 0px 20px;
+    /* text-align: center; */
+}
+
+.list-inside-table {
+    list-style-type: disc;
+}
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: cyan;
+    font-size: 200%;
+    opacity: 0.5;
+    font-family: Khmer OS Classic;
+    text-shadow: 2px 2px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}

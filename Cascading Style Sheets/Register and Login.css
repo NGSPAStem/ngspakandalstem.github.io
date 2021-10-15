@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Albertus;
+    src: url(../Fonts/albr55w.ttf);
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px cyan;
+    opacity: 1;
+    position: absolute;
+    /* top: -100000px; */
+}
+
+form label {
+    font-family: Albertus, sans-serif;
+    font-size: 120%;
+}
+
+form input {
+    width: 680px;
+    height: 45px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    padding: 5px 0px 5px 15px;
+    border: solid transparent;
+    background-color: wheat;
+    border-radius: 10px;
+    font-size: 125%;
+    font-family: Albertus, sans-serif;
+    text-transform: capitalize;
+}
+
+form input[type="date"] {
+    outline: red;
+}
+form input:focus,
+form input:active,
+form input:hover {
+    outline: none;
+}
+
+form button {
+    width: 700px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: Albertus, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 150%;
+    border: solid transparent;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}

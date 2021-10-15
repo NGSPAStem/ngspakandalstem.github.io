@@ -1,0 +1,1069 @@
+@font-face {
+    font-family: Albertus;
+    src: url(../Fonts/albr55w.ttf);
+}
+@font-face {
+    font-family: Kh Content;
+    src: url(../Fonts/Kh-Content_0.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(90deg, red, blue, green, purple, yellow, cyan, lime); */
+    background-image: url(../Image/math.jpg);
+    background-size: cover;
+    background-size: 1600px;
+    /* animation: bg-animation;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-delay: 10ms;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    transition: bg-animation 200ms; */
+}
+
+@keyframes bg-animation {
+    /* 0% {
+        background-image: linear-gradient(0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.1% {
+        background-image: linear-gradient(1deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.2% {
+        background-image: linear-gradient(2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.3% {
+        background-image: linear-gradient(3deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.4% {
+        background-image: linear-gradient(4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.5% {
+        background-image: linear-gradient(5deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.6% {
+        background-image: linear-gradient(6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.7% {
+        background-image: linear-gradient(7deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.8% {
+        background-image: linear-gradient(8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    0.9% {
+        background-image: linear-gradient(9deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1% {
+        background-image: linear-gradient(10deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.1% {
+        background-image: linear-gradient(11deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.2% {
+        background-image: linear-gradient(12deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.3% {
+        background-image: linear-gradient(13deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.4% {
+        background-image: linear-gradient(14deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.5% {
+        background-image: linear-gradient(15deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.6% {
+        background-image: linear-gradient(16deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.7% {
+        background-image: linear-gradient(17deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.8% {
+        background-image: linear-gradient(18deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1.9% {
+        background-image: linear-gradient(19deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.0% {
+        background-image: linear-gradient(20deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.1% {
+        background-image: linear-gradient(21deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.2% {
+        background-image: linear-gradient(22deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.3% {
+        background-image: linear-gradient(23deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.4% {
+        background-image: linear-gradient(24deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.5% {
+        background-image: linear-gradient(25deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.6% {
+        background-image: linear-gradient(26deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.7% {
+        background-image: linear-gradient(27deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.8% {
+        background-image: linear-gradient(28deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2.9% {
+        background-image: linear-gradient(29deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.0% {
+        background-image: linear-gradient(30deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.1% {
+        background-image: linear-gradient(31deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.2% {
+        background-image: linear-gradient(32deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.3% {
+        background-image: linear-gradient(33deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.4% {
+        background-image: linear-gradient(34deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.5% {
+        background-image: linear-gradient(35deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.6% {
+        background-image: linear-gradient(36deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.7% {
+        background-image: linear-gradient(37deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.8% {
+        background-image: linear-gradient(38deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3.9% {
+        background-image: linear-gradient(39deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.0% {
+        background-image: linear-gradient(40deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.1% {
+        background-image: linear-gradient(41deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.2% {
+        background-image: linear-gradient(42deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.3% {
+        background-image: linear-gradient(43deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.4% {
+        background-image: linear-gradient(44deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.5% {
+        background-image: linear-gradient(45deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.6% {
+        background-image: linear-gradient(46deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.7% {
+        background-image: linear-gradient(47deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.8% {
+        background-image: linear-gradient(48deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4.9% {
+        background-image: linear-gradient(49deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.0% {
+        background-image: linear-gradient(50deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.1% {
+        background-image: linear-gradient(51deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.2% {
+        background-image: linear-gradient(52deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.3% {
+        background-image: linear-gradient(53deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.4% {
+        background-image: linear-gradient(54deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.5% {
+        background-image: linear-gradient(55deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.6% {
+        background-image: linear-gradient(56deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.7% {
+        background-image: linear-gradient(57deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.8% {
+        background-image: linear-gradient(58deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5.9% {
+        background-image: linear-gradient(59deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.0% {
+        background-image: linear-gradient(60deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.1% {
+        background-image: linear-gradient(61deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.2% {
+        background-image: linear-gradient(62deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.3% {
+        background-image: linear-gradient(63deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.4% {
+        background-image: linear-gradient(64deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.5% {
+        background-image: linear-gradient(65deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.6% {
+        background-image: linear-gradient(66deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.7% {
+        background-image: linear-gradient(67deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.8% {
+        background-image: linear-gradient(68deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6.9% {
+        background-image: linear-gradient(69deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.0% {
+        background-image: linear-gradient(70deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.1% {
+        background-image: linear-gradient(71deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.2% {
+        background-image: linear-gradient(72deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.3% {
+        background-image: linear-gradient(73deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.4% {
+        background-image: linear-gradient(74deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.5% {
+        background-image: linear-gradient(75deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.6% {
+        background-image: linear-gradient(76deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.7% {
+        background-image: linear-gradient(77deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.8% {
+        background-image: linear-gradient(78deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7.9% {
+        background-image: linear-gradient(79deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.0% {
+        background-image: linear-gradient(80deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.1% {
+        background-image: linear-gradient(81deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.2% {
+        background-image: linear-gradient(82deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.3% {
+        background-image: linear-gradient(83deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.4% {
+        background-image: linear-gradient(84deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.5% {
+        background-image: linear-gradient(85deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.6% {
+        background-image: linear-gradient(86deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.7% {
+        background-image: linear-gradient(87deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.8% {
+        background-image: linear-gradient(88deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8.9% {
+        background-image: linear-gradient(89deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.0% {
+        background-image: linear-gradient(90deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.1% {
+        background-image: linear-gradient(91deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.2% {
+        background-image: linear-gradient(92deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.3% {
+        background-image: linear-gradient(93deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.4% {
+        background-image: linear-gradient(94deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.5% {
+        background-image: linear-gradient(95deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.6% {
+        background-image: linear-gradient(96deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.7% {
+        background-image: linear-gradient(97deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.8% {
+        background-image: linear-gradient(98deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9.9% {
+        background-image: linear-gradient(99deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    10.0% {
+        background-image: linear-gradient(100deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    10.1% {
+        background-image: linear-gradient(101deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    10.2% {
+        background-image: linear-gradient(102deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    103% {
+        background-image: linear-gradient(103deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    104% {
+        background-image: linear-gradient(104deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    105% {
+        background-image: linear-gradient(105deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    106% {
+        background-image: linear-gradient(106deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    107% {
+        background-image: linear-gradient(107deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    108% {
+        background-image: linear-gradient(108deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    109% {
+        background-image: linear-gradient(109deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    110% {
+        background-image: linear-gradient(110deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    111% {
+        background-image: linear-gradient(111deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    112% {
+        background-image: linear-gradient(112deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    113% {
+        background-image: linear-gradient(113deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    114% {
+        background-image: linear-gradient(114deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    115% {
+        background-image: linear-gradient(115deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    116% {
+        background-image: linear-gradient(116deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    117% {
+        background-image: linear-gradient(117deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    118% {
+        background-image: linear-gradient(118deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    119% {
+        background-image: linear-gradient(119deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    120% {
+        background-image: linear-gradient(120deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    121% {
+        background-image: linear-gradient(121deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    122% {
+        background-image: linear-gradient(122deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    123% {
+        background-image: linear-gradient(123deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    124% {
+        background-image: linear-gradient(124deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    125% {
+        background-image: linear-gradient(125deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    126% {
+        background-image: linear-gradient(126deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    127% {
+        background-image: linear-gradient(127deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    128% {
+        background-image: linear-gradient(128deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    129% {
+        background-image: linear-gradient(129deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    130% {
+        background-image: linear-gradient(130deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    131% {
+        background-image: linear-gradient(131deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    132% {
+        background-image: linear-gradient(132deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    133% {
+        background-image: linear-gradient(133deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    134% {
+        background-image: linear-gradient(134deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    135% {
+        background-image: linear-gradient(135deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    136% {
+        background-image: linear-gradient(136deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    137% {
+        background-image: linear-gradient(137deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    138% {
+        background-image: linear-gradient(138deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    139% {
+        background-image: linear-gradient(139deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    140% {
+        background-image: linear-gradient(140deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    141% {
+        background-image: linear-gradient(141deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    142% {
+        background-image: linear-gradient(142deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    143% {
+        background-image: linear-gradient(143deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    144% {
+        background-image: linear-gradient(144deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    145% {
+        background-image: linear-gradient(145deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    146% {
+        background-image: linear-gradient(146deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    147% {
+        background-image: linear-gradient(147deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    148% {
+        background-image: linear-gradient(148deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    149% {
+        background-image: linear-gradient(149deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    150% {
+        background-image: linear-gradient(150deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    151% {
+        background-image: linear-gradient(151deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    152% {
+        background-image: linear-gradient(152deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    153% {
+        background-image: linear-gradient(153deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    154% {
+        background-image: linear-gradient(154deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    155% {
+        background-image: linear-gradient(155deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    156% {
+        background-image: linear-gradient(156deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    157% {
+        background-image: linear-gradient(157deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    158% {
+        background-image: linear-gradient(158deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    159% {
+        background-image: linear-gradient(159deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    160% {
+        background-image: linear-gradient(160deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    161% {
+        background-image: linear-gradient(161deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    162% {
+        background-image: linear-gradient(162deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    163% {
+        background-image: linear-gradient(163deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    164% {
+        background-image: linear-gradient(164deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    165% {
+        background-image: linear-gradient(165deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    166% {
+        background-image: linear-gradient(166deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    167% {
+        background-image: linear-gradient(167deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    168% {
+        background-image: linear-gradient(168deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    169% {
+        background-image: linear-gradient(169deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    170% {
+        background-image: linear-gradient(170deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    171% {
+        background-image: linear-gradient(171deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    172% {
+        background-image: linear-gradient(172deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    173% {
+        background-image: linear-gradient(173deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    174% {
+        background-image: linear-gradient(174deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    175% {
+        background-image: linear-gradient(175deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    176% {
+        background-image: linear-gradient(176deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    177% {
+        background-image: linear-gradient(177deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    178% {
+        background-image: linear-gradient(178deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    179% {
+        background-image: linear-gradient(179deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    180% {
+        background-image: linear-gradient(180deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    181% {
+        background-image: linear-gradient(181deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    182% {
+        background-image: linear-gradient(182deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    183% {
+        background-image: linear-gradient(183deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    184% {
+        background-image: linear-gradient(184deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    185% {
+        background-image: linear-gradient(185deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    186% {
+        background-image: linear-gradient(186deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    187% {
+        background-image: linear-gradient(187deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    188% {
+        background-image: linear-gradient(188deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    189% {
+        background-image: linear-gradient(189deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    190% {
+        background-image: linear-gradient(190deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    191% {
+        background-image: linear-gradient(191deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    192% {
+        background-image: linear-gradient(192deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    193% {
+        background-image: linear-gradient(193deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    194% {
+        background-image: linear-gradient(194deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    195% {
+        background-image: linear-gradient(195deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    196% {
+        background-image: linear-gradient(196deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    197% {
+        background-image: linear-gradient(197deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    198% {
+        background-image: linear-gradient(198deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    199% {
+        background-image: linear-gradient(199deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    200% {
+        background-image: linear-gradient(200deg, red, blue, green, purple, yellow, cyan, lime);
+    } */
+    0% {
+        background-image: linear-gradient(0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    1% {
+        background-image: linear-gradient(3.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    2% {
+        background-image: linear-gradient(7.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    3% {
+        background-image: linear-gradient(10.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    4% {
+        background-image: linear-gradient(14.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    5% {
+        background-image: linear-gradient(18.1deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    6% {
+        background-image: linear-gradient(21.7deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    7% {
+        background-image: linear-gradient(25.3deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    8% {
+        background-image: linear-gradient(28.9deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    9% {
+        background-image: linear-gradient(32.5deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    10% {
+        background-image: linear-gradient(36.1deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    11% {
+        background-image: linear-gradient(39.7deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    12% {
+        background-image: linear-gradient(43.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    13% {
+        background-image: linear-gradient(47.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    14% {
+        background-image: linear-gradient(50.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    15% {
+        background-image: linear-gradient(54.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    16% {
+        background-image: linear-gradient(57.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    17% {
+        background-image: linear-gradient(61.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    18% {
+        background-image: linear-gradient(65.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    19% {
+        background-image: linear-gradient(68.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    20% {
+        background-image: linear-gradient(72.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    21% {
+        background-image: linear-gradient(75.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    22% {
+        background-image: linear-gradient(79.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    23% {
+        background-image: linear-gradient(83.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    24% {
+        background-image: linear-gradient(86.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    25% {
+        background-image: linear-gradient(90.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    26% {
+        background-image: linear-gradient(93.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    27% {
+        background-image: linear-gradient(97.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    28% {
+        background-image: linear-gradient(101.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    29% {
+        background-image: linear-gradient(104.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    30% {
+        background-image: linear-gradient(104.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    31% {
+        background-image: linear-gradient(107.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    32% {
+        background-image: linear-gradient(111.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    33% {
+        background-image: linear-gradient(115.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    34% {
+        background-image: linear-gradient(118.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    35% {
+        background-image: linear-gradient(122.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    36% {
+        background-image: linear-gradient(125.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    37% {
+        background-image: linear-gradient(129.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    38% {
+        background-image: linear-gradient(133.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    39% {
+        background-image: linear-gradient(136.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    40% {
+        background-image: linear-gradient(140.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    41% {
+        background-image: linear-gradient(143.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    42% {
+        background-image: linear-gradient(144.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    43% {
+        background-image: linear-gradient(148.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    44% {
+        background-image: linear-gradient(151.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    45% {
+        background-image: linear-gradient(154.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    46% {
+        background-image: linear-gradient(157.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    47% {
+        background-image: linear-gradient(161.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    48% {
+        background-image: linear-gradient(165.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    49% {
+        background-image: linear-gradient(168.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    50% {
+        background-image: linear-gradient(172.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    51% {
+        background-image: linear-gradient(175.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    52% {
+        background-image: linear-gradient(179.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    53% {
+        background-image: linear-gradient(183.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    54% {
+        background-image: linear-gradient(186.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    55% {
+        background-image: linear-gradient(189.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    56% {
+        background-image: linear-gradient(193.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    57% {
+        background-image: linear-gradient(196.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    58% {
+        background-image: linear-gradient(200.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    59% {
+        background-image: linear-gradient(204.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    60% {
+        background-image: linear-gradient(207.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    61% {
+        background-image: linear-gradient(211.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    62% {
+        background-image: linear-gradient(215.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    63% {
+        background-image: linear-gradient(219.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    64% {
+        background-image: linear-gradient(223.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    65% {
+        background-image: linear-gradient(226.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    66% {
+        background-image: linear-gradient(230.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    67% {
+        background-image: linear-gradient(233.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    68% {
+        background-image: linear-gradient(237.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    69% {
+        background-image: linear-gradient(241.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    70% {
+        background-image: linear-gradient(244.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    71% {
+        background-image: linear-gradient(248.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    72% {
+        background-image: linear-gradient(251.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    73% {
+        background-image: linear-gradient(255.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    74% {
+        background-image: linear-gradient(259.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    75% {
+        background-image: linear-gradient(262.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    76% {
+        background-image: linear-gradient(264.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    77% {
+        background-image: linear-gradient(267.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    78% {
+        background-image: linear-gradient(271.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    79% {
+        background-image: linear-gradient(275.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    80% {
+        background-image: linear-gradient(278.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    81% {
+        background-image: linear-gradient(282.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    82% {
+        background-image: linear-gradient(285.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    83% {
+        background-image: linear-gradient(289.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    84% {
+        background-image: linear-gradient(290.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    85% {
+        background-image: linear-gradient(293.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    86% {
+        background-image: linear-gradient(297.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    87% {
+        background-image: linear-gradient(300.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    88% {
+        background-image: linear-gradient(304.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    89% {
+        background-image: linear-gradient(307.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    90% {
+        background-image: linear-gradient(310.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    91% {
+        background-image: linear-gradient(314.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    92% {
+        background-image: linear-gradient(317.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    93% {
+        background-image: linear-gradient(321.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    94% {
+        background-image: linear-gradient(325.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    95% {
+        background-image: linear-gradient(328.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    96% {
+        background-image: linear-gradient(232.2deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    97% {
+        background-image: linear-gradient(235.8deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    98% {
+        background-image: linear-gradient(239.4deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+    99% {
+        background-image: linear-gradient(343.0deg, red, blue, green, purple, yellow, cyan, lime);
+    }100% {
+        background-image: linear-gradient(347.6deg, red, blue, green, purple, yellow, cyan, lime);
+    }
+}
+
+.all-doc {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-box {
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    overflow: visible;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.description {
+    font-family: Kh Content;
+    font-size: 120%;
+    /* background-color: r; */
+}
+
+.first-file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    border: 4px dashed orange;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;
+    background-image: url(../Image/home8.png);
+    background-size: cover;
+}
+
+.first-file-upload:hover,
+.first-file-upload:active {
+    cursor: pointer;
+}
+
+.first-file-uploader {
+    display: none;
+}
+
+.uploader-prompt {
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-family: Kh Content;
+    font-size: 120%;
+    color: orange;
+}
+
+.uploader-requirement {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    font-family: Kh Content;
+    font-size: 90%;
+}
+
+.drop-zone-thumb {
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+}
+
+.drop-zone-thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+
+.drop-zone--over {
+    border-style: solid;
+    border-color: darkcyan;
+}
+
+form input[type="link"] {
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    border:2px solid orange;
+    font-size: 120%;
+    text-align: center;
+    font-family: Albertus, cursive;
+    opacity: 0.8;
+    position: relative;
+}
+
+form input[type="link"]:hover,
+form input[type="link"]:active,
+form input[type="link"]:focus {
+    outline: none;
+}
+
+#video-link {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(228, 225, 225);
+    border: solid transparent;
+    /* text-align: center; */
+    text-indent: 20px;
+    font-size: 110%;
+    font-family: Albertus, cursive;
+    opacity: 0.8;
+    position: relative;
+}
+
+.topic-video {
+    position: relative;
+    /* top: 300px; */
+    font-family: Kh Content, cursive;
+}
