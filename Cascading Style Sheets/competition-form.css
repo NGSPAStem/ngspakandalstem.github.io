@@ -971,7 +971,7 @@ body {
     border-radius: 20px;
     position: relative;
     left: 50px;
-    background-image: url(../Image/home8.png);
+    background-image: linear-gradient(60deg, #99FFFF, #99FFCC, #99FF99, #99FF66, #99FF33, #99FF00);
     background-size: cover;
 }
 
