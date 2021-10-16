@@ -6,8 +6,9 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url(../Image/2.jpg);
+    background-image: url(../Image/Untitled-1.jpg);
     background-size: 1600px 800px;
+    image-resolution: 1;
     /* background-size: cover; */
     background-repeat: no-repeat;
     /* image-resolution: 780px; */
@@ -51,7 +52,7 @@ img.math-paint {
     top: 190px;
     width: 100px;
     height: 110px;
-    animation: math-paint 1.8s alternate;
+    animation: math-paint 1.9s alternate;
     animation-delay: 0ms;
 }
 
@@ -62,8 +63,17 @@ img.math-paint {
     width: 345px;
     background-color: #0033FF;
     animation: ict-animation 2s alternate;
-    /* animation-delay: 20ms; */
+    animation-delay: 100ms;
     /* background-color: transparent; */
+}
+
+.ict-paint {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    animation: ict-paint 2.2s alternate;
 }
 
 .chemistry-select {
@@ -71,6 +81,17 @@ img.math-paint {
     left: 180px;
     background-color: #6666CC;
     animation: ict-animation 2s alternate;
+    animation-delay: 50ms;
+}
+
+img.chemistry-paint {
+    position: absolute;
+    top: 560px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    animation: ict-paint 2s alternate;
+    /* animation-delay: 100ms; */
 }
 
 .physic-select {
@@ -80,39 +101,75 @@ img.math-paint {
     animation: math-animation 2s alternate;
 }
 
+img.physic-paint {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    top: 425px;
+    left: 415px;
+    animation: math-paint 1.9s alternate;
+}
+
 .biology-select {
+    position: absolute;
     top: 685px;
     left: 80px;
     background-color: #CC99CC;
     animation: math-animation 2s alternate;
 }
 
+img.biology-paint {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    top: 665px;
+    left: 415px;
+    animation: math-paint 1.8s alternate;
+}   
+
 @keyframes math-animation {
     from {
         width: 50px;
         /* background-color: red; */
+        opacity: 0.5;
     }
     to {
         width: 350px;
         /* background-color: blue; */
+        opacity: 1;
     }
 }
 @keyframes ict-animation {
     from {
         left: 450px;
         width: 80px;
+        opacity: 0.5;
     }
     to {
         left: 180px;
         width: 345px;
+        opacity: 1;
     }
 }
 @keyframes math-paint {
     from {
         left: 70px;
-        width: 80px;
+        /* width: 80px; */
+        opacity: 0.5;
     }
     to {
         left: 415px;
+        opacity: 1;
     }   
+}
+@keyframes ict-paint {
+    from {
+        left: 400px;
+        /* width: 80px; */
+        opacity: 0.5;
+    }
+    to {
+        left: 80;
+        opacity: 1;
+    }
 }
