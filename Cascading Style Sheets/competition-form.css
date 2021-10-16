@@ -6,6 +6,10 @@
     font-family: Kh Content;
     src: url(../Fonts/Kh-Content_0.ttf);
 }
+@font-face {
+    font-family: Kantumruy;
+    src: url(../Fonts/Kantumruy-Regular.ttf);
+}
 
 body {
     display: flex;
@@ -971,8 +975,7 @@ body {
     border-radius: 20px;
     position: relative;
     left: 50px;
-    background-image: linear-gradient(60deg, #99FFFF, #99FFCC, #99FF99, #99FF66, #99FF33, #99FF00);
-    background-size: cover;
+    opacity: 0.8;
 }
 
 .first-file-upload:hover,
@@ -1066,4 +1069,21 @@ form input[type="link"]:focus {
     position: relative;
     /* top: 300px; */
     font-family: Kh Content, cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.download-link {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    display: grid;
+    font-family: Kantumruy;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
 }
