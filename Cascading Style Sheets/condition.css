@@ -73,17 +73,18 @@ span {
 }
 
 .continue {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1400px;
+    display: grid;
+    column-gap: 20%;
+    /* width: 100px; */
     height: 50px;
     border-radius: 20px;
     background-color: cyan;
     font-size: 200%;
     opacity: 0.5;
+    position: relative;
     font-family: Khmer OS Classic;
     text-shadow: 2px 2px 2px black;
+    text-align: center;
 }
 
 a {
