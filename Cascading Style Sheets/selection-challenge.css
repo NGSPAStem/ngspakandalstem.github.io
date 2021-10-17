@@ -2,11 +2,16 @@
     font-family: BadaBoom BB;
     src: url(../Fonts/BADABB__.TTF);
 }
+@font-face {
+    font-family: Khmer OS Classic;
+    src: url(./Fonts/KhmerOSclassic_0.ttf);
+}
 
 body {
     display: flex;
     justify-content: center;
-    background-image: url(../Image/Untitled-1.jpg);
+    /* background-image: url(../Image/Untitled-1.jpg); */
+    background-image: url(../Image/backgroud\ 2.jpg);
     background-size: 1600px 800px;
     image-resolution: 1;
     /* background-size: cover; */
@@ -29,13 +34,15 @@ a {
     /* background-color: lime; */
     position: absolute;
     top: 210px;
-    font-family: BadaBoom BB, sans-serif;
+    /* font-family: BadaBoom BB, sans-serif; */
+    font-family: Khmer OS Classic, cursive;
     font-size: 350%;
     left: 80px;
     opacity: 0.8;
     color: white;
     text-shadow: 2px 2px 5px black;
     overflow: hidden;
+    text-align: center;
 }
 .math-select {
     top: 210px;
@@ -173,3 +180,64 @@ img.biology-paint {
         opacity: 1;
     }
 }
+
+.in-class,
+.evaluation,
+.ask, 
+.quiz, 
+.random {
+    position: absolute;
+    font-family: BadaBoom BB;
+    font-size: 300%;
+    text-transform: capitalize;
+    text-shadow: 2px 5px 3px black;
+}
+
+.in-class {
+    left: 1220px;
+    top: 205px;
+}
+
+.random {
+    top: 290px;
+    left: 1240px;
+}
+
+.evaluation {
+    top: 380px;
+    left: 1200px;
+}
+
+.quiz {
+    top: 475px;
+    left: 1275px;
+}
+
+.ask {
+    top: 570px;
+    left: 1260px;
+}
+
+/* .top {
+    position: absolute;
+    top: 145px;
+    left: 1020px;
+    width: 600px;
+    height: 600px;
+}
+
+.top-center {
+    position: absolute;
+    top: 140px;
+    left: 1035px;
+    width: 550px;
+    height: 580px;
+}
+
+.top-mid {
+    position: absolute;
+    top: 170px;
+    left: 1020px;
+    width: 580px;
+    height: 580px;
+} */
