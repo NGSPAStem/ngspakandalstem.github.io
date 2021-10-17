@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../Image/B.jpg);
 }
 div {
     margin: 10px 20px 0px 20px;
@@ -27,7 +28,7 @@ div {
 }
 
 div h2 {
-    font-family: AKbalthom Ream;
+    font-family: AKbalthom Ream, cursive;
     text-align: center;
     font-size: 200%;
     text-decoration: underline;
