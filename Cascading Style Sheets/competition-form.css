@@ -947,7 +947,7 @@ body {
 }
 
 .description-box {
-    width: 400px;
+    width: 500px;
     height: 400px;
     /* border: 2px solid black; */
     margin: 0px;
@@ -969,13 +969,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* display: grid; */
     width: 400px;
     height: 250px;
-    border: 4px dashed orange;
+    border: 4px dashed #000;
     border-radius: 20px;
     position: relative;
     left: 50px;
     opacity: 0.8;
+    text-decoration: underline;
 }
 
 .first-file-upload:hover,
@@ -993,7 +995,7 @@ body {
     top: 40px;
     font-family: Kh Content;
     font-size: 120%;
-    color: orange;
+    color: #003;
 }
 
 .uploader-requirement {
@@ -1009,8 +1011,8 @@ body {
     height: 70%;
     border-radius: 20px;
     overflow: hidden;
-    background-color: #cccccc;
-    background-size: cover;
+    /* background-color: #cccccc;
+    background-size: cover; */
     position: absolute;
     top: 0px;
 }
@@ -1022,8 +1024,10 @@ body {
     left: 0;
     width: 100%;
     padding: 5px 0;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.75);
+    color: black;
+    /* background: rgba(0, 0, 0, 0.75); */
+    background-color: none;
+    background-image: url();
     font-size: 14px;
     text-align: center;
 }
@@ -1077,13 +1081,39 @@ a {
 }
 
 .download-link {
-    text-decoration: none;
-    text-align: center;
     position: relative;
-    display: grid;
+    /* display: grid; */
     font-family: Kantumruy;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
     color: blue;
+    /* border: 1px solid black; */
+    width: max-content;
+    right: 0px;
+    text-align: center;
+}
+
+div.downloader-box {
+    display: grid;
+    justify-content: center;
+}
+
+svg {
+    position: absolute;
+    top: 12px;
+    left: 645px;
+    z-index: 1;
+}
+
+#file {
+    /* width: 200px;
+    height: 200px; */
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    opacity: 0.7;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center; */
 }
