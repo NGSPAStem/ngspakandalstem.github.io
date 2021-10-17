@@ -1,62 +1,167 @@
-body {
-    display: flex;
-    justify-content: center;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-@font-face {
-    font-family: Albertus;
-    src: url(../Fonts/albr55w.ttf);
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../Cascading Style Sheets/Register and Login.css"> -->
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            /* animation: bg-animation 10s infinite; */
+            background-image: url(../Image/B.jpg);
+        }
 
-.box {
-    border: 2px solid black;
-    padding: 20px;
-    width: 700px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px 1px cyan;
-    opacity: 1;
-    position: absolute;
-    /* top: -100000px; */
-}
+        @font-face {
+            font-family: Albertus;
+            src: url(../Fonts/albr55w.ttf);
+        }
 
-form label {
-    font-family: Albertus, sans-serif;
-    font-size: 120%;
-}
+        @font-face {
+            font-family: AKbalthom Kbach;
+            src: url(../Fonts/AKbalthom\ Kbach\ [Version\ 1.50]\ 082014.ttf);
+        }
+        @font-face {
+            font-family: AKbalthom Ream;
+            src: url(../Fonts/AKbalthom\ Ream\ [Version\ 2.00]\ 082014.ttf);
+        }
+        @font-face {
+            font-family: Kh-Content;
+            src: url(../Fonts/Kh-Content_0.ttf);
+        }
 
-form input {
-    width: 680px;
-    height: 45px;
-    margin: 10px 0px 0px 0px;
-    display: block;
-    padding: 5px 0px 5px 15px;
-    border: solid transparent;
-    background-color: wheat;
-    border-radius: 10px;
-    font-size: 125%;
-    font-family: Albertus, sans-serif;
-    text-transform: capitalize;
-}
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            width: 700px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px 1px cyan;
+            opacity: 1;
+            position: absolute;
+            /* top: -100000px; */
+            background-color: white;
+        }
 
-form input[type="date"] {
-    outline: red;
-}
-form input:focus,
-form input:active,
-form input:hover {
-    outline: none;
-}
+        form label {
+            /* font-family: Albertus, sans-serif; */
+            font-family: AKbalthom Ream, cursive;
+            font-size: 150%;
+        }
 
-form button {
-    width: 700px;
-    height: 50px;
-    margin-top: 20px;
-    font-family: Albertus, sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size: 150%;
-    border: solid transparent;
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-}
+        form input {
+            width: 680px;
+            height: 45px;
+            margin: 10px 0px 0px 0px;
+            display: block;
+            padding: 5px 0px 5px 15px;
+            border: solid transparent;
+            background-color: wheat;
+            border-radius: 10px;
+            font-size: 125%;
+            /* font-family: Albertus, sans-serif; */
+            /* font-family: AKbalthom Kbach; */
+            font-family: Kh-Content, cursive;
+            text-transform: uppercase;
+        }
+
+        form input[type="date"] {
+            content: none;
+        }
+
+        form input:focus,
+        form input:active,
+        form input:hover {
+            outline: none;
+        }
+
+        form button {
+            width: 700px;
+            height: 50px;
+            margin-top: 20px;
+            /* font-family: Albertus, sans-serif; */
+            font-family: AKbalthom Kbach;
+            font-weight: 600;
+            letter-spacing: 2px;
+            font-size: 150%;
+            border: solid transparent;
+            background-color: black;
+            border-radius: 10px;
+            color: white;
+        }
+
+        form button:hover,
+        form button:active {
+            cursor: pointer;
+        }
+        form select {
+            width: 100%;
+            height: 65px;
+            margin: 10px 0px 0px 0px;
+            display: block;
+            padding: 5px 0px 5px 15px;
+            border: solid transparent;
+            background-color: wheat;
+            border-radius: 10px;
+            font-size: 125%;
+            /* font-family: Albertus, sans-serif; */
+            /* font-family: AKbalthom Kbach; */
+            font-family: Kh-Content, cursive;
+            text-transform: uppercase;
+        }
+
+        form select:hover,
+        form select:active,
+        form select:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h4></h4>
+    </div>
+    <div class="box">
+        <form action="../index.html">
+            <label for="name">ឈ្មោះ</label>
+            <input type="text"><br>
+            <label for="sex">ភេទ</label><br>
+            <!-- <input type="text"><br> -->
+            <select name="sex" id="sex">
+                <option value="Male">ប្រុស</option>
+                <option value="Female">ស្រី</option>
+                <option value="Other">ផ្សេងៗ</option>
+            </select><br>
+            <label for="birth-date">ថ្ងៃ ខែ ឆ្នាំកំណើត</label>
+            <input type="date"><br>
+            <label for="subject">មុខវិជ្ជា</label>
+            <input type="text"><br>
+            <label for="grade">ថ្នាក់</label>
+            <!-- <input type="text"><br> -->
+            <select>
+                <option value="7">ទី៧</option>
+                <option value="8">ទី៨</option>
+                <option value="9">ទី៩</option>
+                <option value="10">ទី១០</option>
+                <option value="11">ទី១១</option>
+                <option value="12">ទី១២</option>
+            </select><br>
+            <label for="school">សាលារៀន</label>
+            <input type="text"><br>
+            <label for="director">គ្រូដឺកនាំ</label>
+            <input type="text"><br>
+            <label for="province">ខេត្ត</label>
+            <input type="text"><br>
+            <label for="tel">លេខទូរស័ព្ទ</label>
+            <input type="tel"><br>
+            <label for="contact">ទំនាក់ទំនង (Facebook/ Telegram / Email)</label>
+            <input type="text"><br>
+            <button type="submit">ដាក់បញ្ជូន</button>
+        </form>
+    </div>
+</body>
+
+</html>
